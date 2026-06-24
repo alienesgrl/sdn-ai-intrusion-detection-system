@@ -3,7 +3,17 @@
 Bu proje; Yazılım Tanımlı Ağlar (SDN - Software Defined Networking) üzerinde makine öğrenmesi modelleri kullanarak anormal ve saldırı niteliğindeki trafik akışlarını gerçek zamanlı tespit eden, PyQt5 tabanlı gelişmiş bir masaüstü kontrol paneli ve simülasyon arayüzüdür. 
 
 Uygulama; **Mininet** ağ emülatörü ile **Ryu SDN Controller** süreçlerini eşzamanlı olarak arka planda yönetir. Ağdan topladığı trafik istatistiklerini makine öğrenmesi modellerinden geçirerek sınıflandırır, sonuçları hem canlı ağ topolojisi üzerinde dinamik animasyonlarla görselleştirir hem de detaylı analitik performans raporları sunar.
+## Screenshots
 
+![Dashboard](screenshots/dashboard.png)
+
+![Topology](screenshots/topology.png)
+
+![Animation](screenshots/animation.png)
+
+![Attack Detection](screenshots/attack_detected.png)
+
+![Model Results](screenshots/model_results.png)
 ---
 
 ## 🏗️ Sistem Mimarisi ve Çalışma Prensibi
